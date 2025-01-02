@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Card from "./Card";
 import Popup from "./Popup";
-import { cardsData } from "../data/cardsData";
+import { cardsData } from "../Data/cardData";
 
 function Main() {
   const [selectedCard, setSelectedCard] = useState(null);
